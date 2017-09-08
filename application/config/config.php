@@ -23,7 +23,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
 $config['base_url'] = '';
+
+// Added by fird0s
+$config['domain_name'] = "ccmanager.pl";
+$config['title'] = "Conference Title";
+$config['description'] = "About Conference";
+$config['author'] = "Conference Author";
+$config['keyword'] = "Conference keyword";
+$config['email'] = "kutsc.conf@gmail.com";
+$config['phone'] = "";
+$config['google_analytics'] = "UA-83889063-1";
+
+
+$config['social_media'] = array(
+	'fb' => 'https://www.facebook.com/marketingdiff',
+	'twitter' => 'https://twitter.com/marketingdiff_',
+	'gplus' => 'https://plus.google.com/117061665851714812544',
+	'feed' => 'https://plus.google.com/',
+	'pinterest' => 'https://id.pinterest.com/marketingdiff/'
+);
+
 
 /*
 |--------------------------------------------------------------------------
