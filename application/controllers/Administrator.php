@@ -3,6 +3,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Administrator extends CI_Controller {
 
+	/*
+	#Account 
+		Type: 
+		0: Participant with Paper
+		1: Participant without Paper
+		2: Sponsor
+
+		#payment
+		0: EUR
+		1: USD
+
+		#paper_status 
+
+		0: Unreviewed
+		1: summary inserted, 
+		2: subject acceptance, 
+		3: reviewed – ready to print, 
+		4: rejected
+
+		#presentation type:
+		0: speaking
+		1: poster session
+	*/
+
 	function auth()
 	{
 		if($this->session->userdata('admin_logged_in'))
