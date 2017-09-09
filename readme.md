@@ -4,6 +4,10 @@ This system will be used to manage conference – participants, papers, revenues
 
 The system work both on PC and mobile phone/tablet and should be properly displayed there (responsive). It should be simple to work with and clear. We’ll have admin that will manage everything and participants, that will have different possibilities depending on the role. After every edit or change it should see pop up window to confirm change.
 
+### Screenshot 
+
+![Screenshot](https://raw.githubusercontent.com/fird0s/web-conference/develop/mindmap.png)
+
 ### Participants
 
 <b>Register form</b>
